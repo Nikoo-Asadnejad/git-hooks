@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A9BBB5F4-425C-4558-8CED-D588DFB5BD7F}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\setup-hooks.sh = scripts\setup-hooks.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hooks", "hooks", "{DF9C2131-1675-465B-B3A7-347BF6D74F6C}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\hooks\commit-msg.sh = scripts\hooks\commit-msg.sh
+		scripts\hooks\pre-commit.sh = scripts\hooks\pre-commit.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF9C2131-1675-465B-B3A7-347BF6D74F6C} = {A9BBB5F4-425C-4558-8CED-D588DFB5BD7F}
+	EndGlobalSection
+EndGlobal
